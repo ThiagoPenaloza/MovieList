@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    align-content: center;
+    flex-direction:row;
+    flex-wrap: wrap-reverse;
+    div {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-color: aquamarine;
+    }
+}
