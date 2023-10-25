@@ -1,7 +1,12 @@
-import "./index.scss";
-
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <div className="Header">
+      <h1>Movie List</h1>
+      <p>
+        Made by <strong>Thiago Peñaloza</strong>
+      </p>
+    </div>
+  );
 };
 
 export default Header;

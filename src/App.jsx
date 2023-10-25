@@ -5,7 +5,7 @@ import "./index.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: "#303030" }}>
       <Header />
       <Outlet />
     </div>
